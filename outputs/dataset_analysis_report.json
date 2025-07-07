@@ -1,0 +1,46 @@
+{
+  "metadata": {
+    "author": "Dady Akrou Cyrille",
+    "email": "cyrilledady0501@gmail.com",
+    "location": "Trois-Rivières, Canada",
+    "analysis_date": "2025-07-07T03:01:49.204966",
+    "project_version": "1.0.0"
+  },
+  "dataset_statistics": {
+    "train": {
+      "NORMAL": 1341,
+      "PNEUMONIA": 3875,
+      "total": 5216
+    },
+    "test": {
+      "NORMAL": 234,
+      "PNEUMONIA": 390,
+      "total": 624
+    },
+    "val": {
+      "NORMAL": 8,
+      "PNEUMONIA": 8,
+      "total": 16
+    },
+    "total_dataset": 5856
+  },
+  "image_properties": {
+    "total_analyzed": 416,
+    "avg_width": 1494.5552884615386,
+    "avg_height": 1125.8653846153845,
+    "avg_file_size_mb": 0.23363908437582162,
+    "unique_formats": [
+      "JPEG"
+    ],
+    "unique_color_modes": [
+      "RGB",
+      "L"
+    ]
+  },
+  "recommendations": {
+    "class_imbalance": "Severe imbalance detected - use class weights or resampling",
+    "validation_set": "Very small validation set - consider redistribution",
+    "image_preprocessing": "Standardize image dimensions and normalize pixel values",
+    "augmentation": "Apply data augmentation to minority class (NORMAL)"
+  }
+}
