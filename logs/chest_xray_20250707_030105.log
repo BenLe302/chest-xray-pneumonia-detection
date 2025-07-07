@@ -1,8 +1,0 @@
-2025-07-07 03:01:05,069 - utils - INFO - Logging configuré - Fichier: C:\Users\cyril\Documents\01 DataScience projects\Chest X-Ray Images (Pneumonia)\logs\chest_xray_20250707_030105.log
-2025-07-07 03:01:05,069 - utils - INFO - Début de l'analyse avancée du dataset
-2025-07-07 03:01:07,942 - utils - INFO - Génération des visualisations avancées
-2025-07-07 03:01:49,206 - root - INFO - Rapport d'analyse sauvegardé: C:\Users\cyril\Documents\01 DataScience projects\Chest X-Ray Images (Pneumonia)\outputs\dataset_analysis_report.json
-2025-07-07 03:01:49,206 - utils - INFO - Visualisations sauvegardées dans: C:\Users\cyril\Documents\01 DataScience projects\Chest X-Ray Images (Pneumonia)\outputs
-2025-07-07 03:01:49,207 - utils - INFO - Rapport JSON généré: C:\Users\cyril\Documents\01 DataScience projects\Chest X-Ray Images (Pneumonia)\outputs\dataset_analysis_report.json
-2025-07-07 03:01:49,209 - utils - INFO - Recommandations ML générées avec succès
-2025-07-07 03:01:49,210 - utils - INFO - Analyse complète terminée avec succès
