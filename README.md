@@ -21,6 +21,17 @@ Ce projet vise à développer un système de détection automatique de pneumonie
 
 ## 📊 Dataset
 
+### Source et Description
+Ce projet utilise le dataset **Chest X-Ray Images (Pneumonia)** disponible sur Kaggle :
+
+- **Source :** [Kaggle - Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia)
+- **Créateur :** Paul Mooney
+- **Licence :** Disponible publiquement sur Kaggle
+
+Le dataset contient des radiographies thoraciques classées en deux catégories :
+- **NORMAL** : Radiographies sans pneumonie
+- **PNEUMONIA** : Radiographies avec pneumonie
+
 ### Structure
 - **Total**: ~5,856 images de radiographies thoraciques
 - **Classes**: NORMAL (27%) et PNEUMONIA (73%)
@@ -100,15 +111,29 @@ pip install -r requirements.txt
 ## 📈 Utilisation
 
 ### Analyse du Dataset
+
+#### Option 1 : Script Python
 ```bash
 python analyse_dataset.py
 ```
 
-Cette commande génère:
+#### Option 2 : Notebook Jupyter
+```bash
+jupyter notebook analyse_complete_dataset.ipynb
+```
+
+Les deux options génèrent :
 - 📊 Statistiques détaillées du dataset
 - 📈 Visualisations avancées
 - 📋 Rapport d'analyse JSON
 - 💡 Recommandations ML
+
+### Avantages du Notebook
+- Interface interactive
+- Visualisations intégrées
+- Documentation complète
+- Exécution cellule par cellule
+- Crédits et références inclus
 
 ### Entraînement du Modèle
 ```bash
