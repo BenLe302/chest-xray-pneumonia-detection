@@ -8,7 +8,7 @@ from pathlib import Path
 
 # Configuration des chemins
 PROJECT_ROOT = Path(__file__).parent
-DATASET_PATH = PROJECT_ROOT / "chest_xray DataSet"
+DATASET_PATH = PROJECT_ROOT / "chest_xray DataSet" / "__MACOSX" / "chest_xray"
 OUTPUT_PATH = PROJECT_ROOT / "outputs"
 MODELS_PATH = PROJECT_ROOT / "models"
 LOGS_PATH = PROJECT_ROOT / "logs"
@@ -61,6 +61,7 @@ PROJECT_INFO = {
     'author': 'Dady Akrou Cyrille',
     'email': 'cyrilledady0501@gmail.com',
     'location': 'Trois-Rivières, Canada',
+    'date': '2023-09-01',
     'version': '1.0.0',
     'description': 'Système de détection automatique de pneumonie sur radiographies thoraciques'
 }
