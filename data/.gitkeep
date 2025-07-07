@@ -1,0 +1,14 @@
+# Ce fichier maintient la structure du dossier data dans Git
+# Les datasets volumineux sont exclus par .gitignore mais la structure est préservée
+# 
+# Structure attendue:
+# data/
+# ├── train/
+# │   ├── NORMAL/
+# │   └── PNEUMONIA/
+# ├── test/
+# │   ├── NORMAL/
+# │   └── PNEUMONIA/
+# └── val/
+#     ├── NORMAL/
+#     └── PNEUMONIA/

@@ -1,0 +1,64 @@
+# Requirements pour le projet Chest X-Ray Pneumonia Detection
+# Auteur: Dady Akrou Cyrille
+# Email: cyrilledady0501@gmail.com
+
+# Core data science libraries
+numpy>=1.21.0
+pandas>=1.3.0
+scipy>=1.7.0
+
+# Image processing
+Pillow>=8.3.0
+opencv-python>=4.5.0
+scikit-image>=0.18.0
+
+# Machine Learning
+scikit-learn>=1.0.0
+tensorflow>=2.8.0
+keras>=2.8.0
+
+# Data visualization
+matplotlib>=3.4.0
+seaborn>=0.11.0
+plotly>=5.0.0
+
+# Data augmentation and preprocessing
+imgaug>=0.4.0
+albumentations>=1.1.0
+
+# Progress bars and utilities
+tqdm>=4.62.0
+colorlog>=6.6.0
+
+# Jupyter notebook support (optional)
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# Model interpretation
+shap>=0.40.0
+lime>=0.2.0
+
+# Metrics and evaluation
+classification-report>=0.0.1
+
+# File handling
+pathlib2>=2.3.0
+
+# Configuration management
+pyyaml>=6.0
+
+# Memory profiling (development)
+memory-profiler>=0.60.0
+
+# Testing (development)
+pytest>=6.0.0
+pytest-cov>=3.0.0
+
+# Code quality (development)
+flake8>=4.0.0
+black>=22.0.0
+isort>=5.10.0
+
+# Documentation (development)
+sphinx>=4.0.0
+sphinx-rtd-theme>=1.0.0

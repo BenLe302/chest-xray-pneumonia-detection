@@ -1,0 +1,234 @@
+# Gitignore pour le projet Chest X-Ray Pneumonia Detection
+# Auteur: Dady Akrou Cyrille
+
+# ===== DONNÉES =====
+# Exclure les datasets volumineux
+chest_xray DataSet/
+chest_xray/
+__MACOSX/
+*.zip
+*.tar.gz
+*.rar
+
+# Images de test temporaires
+temp_images/
+test_images/
+sample_images/
+
+# ===== MODÈLES =====
+# Modèles entraînés (volumineux)
+models/*.h5
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.pth
+models/checkpoints/
+models/saved_models/
+
+# Poids de modèles
+*.weights
+*.ckpt
+*.pb
+
+# ===== ENVIRONNEMENTS =====
+# Environnements virtuels
+venv/
+env/
+.env
+.venv
+conda-env/
+
+# Variables d'environnement
+.env.local
+.env.development
+.env.production
+
+# ===== PYTHON =====
+# Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+PIPFILE.lock
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ===== JUPYTER =====
+# Jupyter Notebook
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# IPython
+profile_default/
+ipython_config.py
+
+# ===== LOGS =====
+# Fichiers de logs (garder la structure)
+logs/*.log
+logs/*.out
+logs/*.err
+*.log
+
+# TensorBoard logs
+tensorboard_logs/
+runs/
+
+# ===== OUTPUTS =====
+# Résultats temporaires
+outputs/temp/
+outputs/cache/
+results/temp/
+
+# Grandes visualisations
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+!README_images/
+!docs/images/
+
+# Rapports volumineux
+*.pdf
+*.docx
+*.xlsx
+
+# ===== SYSTÈME =====
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== IDE =====
+# VSCode
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# PyCharm
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# ===== DONNÉES SENSIBLES =====
+# Clés API et secrets
+api_keys.txt
+secrets.json
+credentials.json
+.secrets
+
+# Configuration locale
+config_local.py
+settings_local.py
+
+# ===== CACHE =====
+# Cache général
+cache/
+.cache/
+tmp/
+temp/
+
+# Cache ML
+.sklearn_cache/
+.joblib_cache/
+
+# Cache pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ===== DOCUMENTATION =====
+# Documentation générée
+docs/_build/
+docs/build/
+site/
+
+# ===== EXCEPTIONS =====
+# Garder certains fichiers importants
+!requirements.txt
+!README.md
+!LICENSE
+!.gitignore
+!config.py
+!utils.py
+!analyse_dataset.py
+
+# Garder les exemples
+!examples/
+!samples/
+
+# Garder la structure des dossiers
+!logs/.gitkeep
+!models/.gitkeep
+!outputs/.gitkeep
+!data/.gitkeep
